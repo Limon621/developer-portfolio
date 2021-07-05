@@ -6,10 +6,13 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 30px;
+}
 .orange-color {
     color: orange;
 }
-section{
+.flex-container{
     display: flex;
     margin-bottom: 130px;
 }
@@ -36,5 +39,16 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.padding{
+    padding: 5%;
+}
+.experiec-item{
+    box-shadow: 10px 10px 30px gray;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+    padding-bottom: 5%;
 }
 
