@@ -51,4 +51,21 @@ h2{
     padding-left: 2.5%;
     padding-bottom: 5%;
 }
-
+.experienc{
+    background-image: url(images/exp-bg.png);
+   background-repeat: no-repeat;
+   background-position: left;
+}
+#pro-experienc{
+    border-left: 7px solid;
+    border-image: linear-gradient( blue, cyan);
+    border-image-slice: 1;
+}
+#noob-experienc{
+    border-left: 7px solid;
+    border-image: linear-gradient( rgb(255, 0, 0), rgb(255, 204, 0));
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+}
